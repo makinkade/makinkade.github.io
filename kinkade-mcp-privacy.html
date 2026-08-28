@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KinkadeMCP - Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  .updated { color: #666; font-size: 0.9rem; margin-top: 0; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>KinkadeMCP - Privacy Policy</h1>
+<p class="updated">Last updated: 28 August 2026</p>
+
+<h2>What this application is</h2>
+<p>
+  KinkadeMCP is a personal, self-hosted tool. It runs as a local process on its owner's own computer
+  and is used only by its owner. There is no hosted service, no server operated by anyone else, and
+  no account to sign up for.
+</p>
+
+<h2>What data it accesses</h2>
+<p>
+  With your permission, KinkadeMCP reads your Google Calendar using the
+  <code>https://www.googleapis.com/auth/calendar.readonly</code> scope. This is read-only access: the
+  application cannot create, change or delete any calendar entry. It requests no other Google data.
+</p>
+
+<h2>How that data is used</h2>
+<p>
+  Calendar events matching a search are returned to the AI assistant session running on the same
+  computer that asked for them, so that it can answer your question about your schedule. That is the
+  application's only purpose. Event data is held in memory for the duration of the request and is not
+  written to disk, logged, or retained afterwards.
+</p>
+
+<h2>What is stored</h2>
+<p>
+  Only the Google OAuth tokens, kept on the local machine under the user's own profile directory, so
+  that access does not have to be granted again on every run. No calendar content is stored.
+</p>
+
+<h2>Sharing</h2>
+<p>
+  Your data is never sold, and it is never shared with any third party, apart from the AI assistant
+  you are yourself conversing with when you ask it a question about your calendar.
+</p>
+
+<h2>Limited use</h2>
+<p>
+  KinkadeMCP's use and transfer of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+  User Data Policy</a>, including the Limited Use requirements.
+</p>
+
+<h2>Withdrawing access</h2>
+<p>
+  You can revoke this application's access at any time from
+  <a href="https://myaccount.google.com/permissions">your Google Account permissions page</a>. You can
+  also delete the locally cached token by running <code>KinkadeMCP.exe revoke</code>.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this policy can be sent to the address listed as the support contact on the
+  application's Google consent screen.
+</p>
+
+</body>
+</html>
